@@ -136,6 +136,20 @@
         padding: 30px 0px 20px 30px;
     }
 
+    .section-2::before {
+        content: 'Millennium Bridge, London, Royaume-Uni';
+        background-image: url(./img/bridge-walk.jpeg);
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 100%;
+        text-align: right;
+        font-style: italic;
+        
+        
+    }
 
 }
 // Tablet Breakpoint
