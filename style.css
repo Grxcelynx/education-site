@@ -8,10 +8,10 @@
 @media (max-width: 480px) {
   .section-1 {
     background-image: url(./img/team.jpeg);
-    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 80%;
+    position: relative;
     height: 460px;
   }
   .section-1::before {
@@ -36,11 +36,6 @@
     width: 70%;
     float: right;
     margin-top: 40px;
-  }
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
   /* Add some padding inside the card container */
   .container {
