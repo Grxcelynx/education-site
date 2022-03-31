@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -426,6 +428,63 @@
     font-size: 16px;
     padding: 20px 0px 5px 40px;
     color: #bf404c;
+  }
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .section6 {
+    background-image: url(./img/hands.jpeg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+  }
+  .section6::before {
+    content: '';
+    height: 20px;
+    width: 100px;
+    background-color: #bf404c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    margin: 30px 0px 0px 40px;
+  }
+  .section6 h1 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 200px 80px 40px 60px;
+  }
+  .section6 p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 18px;
+    color: white;
+    padding: 30px 40px 40px 60px;
+  }
+  .section6 button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin: 10px 0px 200px 60px;
   }
 }
 /*# sourceMappingURL=style.css.map */
