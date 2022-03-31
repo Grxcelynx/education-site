@@ -156,9 +156,8 @@
   }
   /* Slideshow container */
   .slideshow-container {
-    width: 70%;
+    width: 100%;
     position: relative;
-    margin: 0;
   }
   /* Hide the images by default */
   .mySlides {
@@ -171,7 +170,6 @@
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 16px;
     color: white;
     font-weight: bold;
     font-size: 18px;

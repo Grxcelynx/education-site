@@ -166,15 +166,17 @@
     
     .section3 h1 {
         font-family: 'Roboto', sans-serif;
+        
 
     }
 
     /* Slideshow container */
     .slideshow-container {
     // max-width: 380px;
-    width: 70%;
+    width: 100%;
     position: relative;
-    margin: 0;
+    // margin: 0;
+    // margin: 20px 30px 20px 30px;
     // overflow: hidden;
 
     }
@@ -191,7 +193,7 @@
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 16px;
+    // padding: 16px;
     color: white;
     font-weight: bold;
     font-size: 18px;
