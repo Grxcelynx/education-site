@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+// Mobile Break Point
+@media (max-width:480px){
+    .sec5-1 h1 {
+        font-family: $font1;
+        font-weight: 200;
+        line-height: 40px;
+        font-size: 36px;
+        padding: 40px 80px 30px 60px;
+        text-transform: uppercase;
+    }
+
+    .sec5-1 p {
+        font-family: $font2;
+        font-weight: 400;
+        line-height: 29px;
+        font-size: 18px;
+        padding: 20px 70px 40px 70px;
+    }
+
+    .sec5-1 button {
+        font-family: $font2;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 19px;
+        padding: 10px 40px 10px 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color: $primary;
+        border: 1px solid $primary;
+        color: white;
+        margin: 10px 0px 20px 70px;
+    }
+
+    .sec5-2 {
+        height: 500px;
+    }
+
+    .sec5-2 img {
+        height: 250px;
+        width: 300px;
+        object-fit: cover;
+        margin: 10px 30px 50px 50px;
+    }
+
+    .sec5-2::before {
+        content: '';
+        background-image: url(./img/writing.jpeg);
+        background-size: 300px 250px;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 300px;
+        display: flex;
+        position:absolute;
+        top: 560%;
+        left: 30%;
+    }
+
+    .sec5-3 h6 {
+        font-family: $font2;
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: right;
+        padding: 20px 40px 20px 80px;
+    }
+
+    .sec5-4::before {
+        content: '';
+        height: 20px;
+        width: 400px;
+        background-color: $primary;
+        display: flex;
+        position: absolute;
+        margin: 30px 10px 0px 40px;
+    }
+
+    .sec5-4 p {
+        font-family: $font1;
+        font-weight: 200;
+        line-height: 26px;
+        font-size: 16px;
+        padding: 80px 0px 5px 40px;
+    }
+    
+    .sec5-4 h5 {
+        font-family: $font1;
+        font-weight: 100;
+        line-height: 26px;
+        font-size: 16px;
+        padding: 20px 0px 5px 40px;
+        color: $primary;
+    }
+}
+// Tablet Breakpoint
+@media (max-width:768px){
+    // CODE IN HERE
+}
+// Desktop Breakpoint
+@media (max-width:1200px){
+    // CODE IN HERE
+}
