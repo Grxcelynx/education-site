@@ -12,7 +12,7 @@
 @media (max-width:480px){
     
     .section3 h1 {
-        font-family: 'Roboto', sans-serif;
+        font-family: $font1;
         text-align: center;
         text-transform: uppercase;
         font-weight: 300;
@@ -78,12 +78,12 @@
     }
 
     .caro-title {
-        font-family: 'Open Sans', sans-serif;
+        font-family: $font2;
         font-weight: 300;
         font-size: 14px;
         line-height: 22px;
         font-style: italic;
-        color: #bf404c;
+        color: $primary;
     }
 
     /* The dots/bullets/indicators */

@@ -24,7 +24,7 @@
         content: '';
         width: 70%;
         height: 20px;
-        background-color: #bf404c;
+        background-color: $primary;
         position: absolute;
         align-items: center;
         display: flex;
@@ -47,7 +47,7 @@
       }
 
     .card-head {
-        font-family: 'Roboto', sans-serif;
+        font-family: $font1;
         line-height: 40px;
         font-size: 40px;
         width: 100%;
@@ -61,15 +61,15 @@
         padding-left: 10px;
         padding-right: 80px;
         padding-top: 20px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $font2;
         font-size: 18px;
         font-weight: 400;    
     }
     
     .learnmore {
-        background-color: #bf404c;
+        background-color: $primary;
         color: white;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $font2;
         padding: 10px;
         width: 185px;
         letter-spacing: 3px;

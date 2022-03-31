@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -49,7 +51,7 @@
     margin-top: 80px;
   }
   .card-head {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 40px;
     font-size: 40px;
     width: 100%;
@@ -62,14 +64,14 @@
     padding-left: 10px;
     padding-right: 80px;
     padding-top: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
   }
   .learnmore {
     background-color: #bf404c;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 10px;
     width: 185px;
     letter-spacing: 3px;
@@ -103,7 +105,7 @@
             align-items: center;
     position: relative;
     padding: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
     line-height: 33px;
     font-weight: 200;
@@ -111,7 +113,7 @@
     text-align: left;
   }
   .section-2 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
@@ -120,7 +122,7 @@
     padding-right: 60px;
   }
   .section-2 button {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 19px;
@@ -147,7 +149,7 @@
   }
   .sec2-container h6 {
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     font-size: 14px;
     line-height: 22px;
@@ -177,7 +179,7 @@
 
 @media (max-width: 480px) {
   .section3 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -231,7 +233,7 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
   .caro-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -275,6 +277,56 @@
     to {
       opacity: 1;
     }
+  }
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .sec4-1 {
+    background-color: #bf404c;
+  }
+  .sec4-1 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    padding: 40px 60px 20px 60px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .sec4-1 p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 200;
+    padding: 30px 70px 20px 70px;
+  }
+  .sec4-1 button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin: 10px 0px 100px 70px;
+  }
+  .sec4-2 img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: 0;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
