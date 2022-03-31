@@ -7,7 +7,6 @@
     margin: 0;
     box-sizing:border-box;
     padding: 0;
-
 }
 // Mobile Break Point
 @media (max-width:480px){
@@ -165,12 +164,15 @@
         padding: 0px 0px 20px 50px;
     }
     
+    .section3 h1 {
+        font-family: 'Roboto', sans-serif;
 
+    }
 
     /* Slideshow container */
     .slideshow-container {
     // max-width: 380px;
-    width: 100%;
+    width: 70%;
     position: relative;
     margin: 0;
     // overflow: hidden;
