@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+// Mobile Break Point
+@media (max-width:480px){
+
+    .section-1 {
+        background-image: url(./img/team.jpeg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position-x: 80%;
+        position: relative;
+        height: 493px;
+    }
+
+    .section-1::before {
+        content: '';
+        width: 70%;
+        height: 20px;
+        background-color: #bf404c;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+    .card {
+        transition: 0.3s;
+        background-color: white;
+        width: 70%;
+        float: right;
+        margin-top: 40px;
+      }
+      
+      /* Add some padding inside the card container */
+    .container {
+        padding: 2px 45px;
+        margin-top: 80px;
+      }
+
+    .card-head {
+        font-family: 'Roboto', sans-serif;
+        line-height: 40px;
+        font-size: 40px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-para {
+        line-height: 32px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 80px;
+        padding-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;    
+    }
+    
+    .learnmore {
+        background-color: #bf404c;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px;
+        width: 185px;
+        letter-spacing: 3px;
+        font-weight: 100;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        line-height: 19px;
+        font-size: 12px;
+        border: none;
+    }
+
+
+}
+// Tablet Breakpoint
+@media (max-width:768px){
+    // CODE IN HERE
+}
+// Desktop Breakpoint
+@media (max-width:1200px){
+    // CODE IN HERE
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+// Mobile Break Point
+@media (max-width:480px){
+    
+    .section3 h1 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .hr2 {
+        width: 30%;
+        // padding: 0px 0px 30px 180px;
+        float: right;
+        margin: 20px;
+
+    }
+
+
+
+    /* Slideshow container */
+    .slideshow-container {
+    // max-width: 380px;
+    width: 100%;
+    position: relative;
+    // margin: 0;
+    // margin: 20px 30px 20px 30px;
+    // overflow: hidden;
+
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+    display: none;
+    }
+
+    .mySlides img {
+        height: 500px;
+        padding: 0px 70px 0px 70px;
+        object-fit: cover;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    // padding: 16px;
+    color: rgb(53, 192, 118);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    .caro-title {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        font-style: italic;
+        color: #bf404c;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+    cursor: pointer;
+    height: 4px;
+    width: 45px;
+    margin: 0px;
+    background-color: #bbb;
+    border-radius: 20%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+
+}
+// Tablet Breakpoint
+@media (max-width:768px){
+    // CODE IN HERE
+}
+// Desktop Breakpoint
+@media (max-width:1200px){
+    // CODE IN HERE
+}
