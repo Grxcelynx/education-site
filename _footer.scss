@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+// Mobile Break Point
+@media (max-width:480px){
+
+    footer {
+        background-color: #333333;
+        height: 200px;
+        width: 100%;
+    }
+    .burger {
+        display: block;
+      }
+
+    .burger div {
+        width: 25px;
+        height: 3px;
+        color: rgb(241, 19, 19);
+        background-color: grey;
+        margin: 5px;
+        justify-content: center;
+        position: relative;
+      }
+
+    
+}
+// Tablet Breakpoint
+@media (max-width:768px){
+    // CODE IN HERE
+}
+// Desktop Breakpoint
+@media (max-width:1200px){
+    // CODE IN HERE
+}
