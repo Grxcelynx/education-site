@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+// Mobile Break Point
+@media (max-width:480px){
+    .sec7-1 {
+        background-image: url(./img/main-building.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .sec7-2 {
+        background-image: url(./img/tan-building.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .sec7-3 {
+        background-image: url(./img/brown-building.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .building-txt i {
+        color: aqua;
+        background-color: aqua;
+        height: 20px;
+        width: 20px;
+    }
+
+
+    .building-txt {
+        bottom: 0;
+
+    }
+
+    .building-txt h5 {
+        font-family: $font1;
+        font-style: italic;
+        line-height: 24px;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .building-txt h6 {
+        font-family: $font2;
+        font-style: italic;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+
+}
+// Tablet Breakpoint
+@media (max-width:768px){
+    // CODE IN HERE
+}
+// Desktop Breakpoint
+@media (max-width:1200px){
+    // CODE IN HERE
+}

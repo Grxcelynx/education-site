@@ -10,6 +10,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -391,7 +393,7 @@
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    top: 560%;
+    top: 500%;
     left: 30%;
   }
   .sec5-3 h6 {
@@ -441,26 +443,27 @@
 @media (max-width: 480px) {
   .section6 {
     background-image: url(./img/hands.jpeg);
-    -o-object-fit: cover;
-       object-fit: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
   }
   .section6::before {
     content: '';
     height: 20px;
-    width: 100px;
+    width: 140px;
     background-color: #bf404c;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    margin: 30px 0px 0px 40px;
+    margin: 30px 0px 0px 60px;
+    top: 575%;
   }
   .section6 h1 {
     font-family: "Roboto", sans-serif;
     color: white;
-    line-height: 40px;
-    font-size: 36px;
+    line-height: 45px;
+    font-size: 46px;
     font-weight: 200;
     text-transform: uppercase;
     padding: 200px 80px 40px 60px;
@@ -469,7 +472,7 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 29px;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     padding: 30px 40px 40px 60px;
   }
@@ -485,6 +488,62 @@
     border: 1px solid white;
     color: white;
     margin: 10px 0px 200px 60px;
+  }
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .sec7-1 {
+    background-image: url(./img/main-building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20px 20px 20px 20px;
+  }
+  .sec7-2 {
+    background-image: url(./img/tan-building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20px 20px 20px 20px;
+  }
+  .sec7-3 {
+    background-image: url(./img/brown-building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 20px 20px 20px 20px;
+  }
+  .building-txt i {
+    color: aqua;
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+  }
+  .building-txt {
+    bottom: 0;
+  }
+  .building-txt h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+  .building-txt h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
