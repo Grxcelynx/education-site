@@ -18,17 +18,20 @@
     }
     .burger {
         display: block;
+        padding: 60px 0px 20px 220px;
       }
 
     .burger div {
         width: 25px;
         height: 3px;
-        color: rgb(241, 19, 19);
-        background-color: grey;
+        background-color: rgb(178, 175, 175);
         margin: 5px;
-        justify-content: center;
-        position: relative;
+        justify-content: right;
       }
+
+    .icons {
+        text-align: center;
+    }
 
     
 }
