@@ -177,5 +177,93 @@
 }
 // Desktop Breakpoint
 @media (max-width:1200px){
-    // CODE IN HERE
+    * {
+        height: 100%;
+        width: 100;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        // overflow: hidden;
+    }
+
+    .section-1 {
+        background-image: url(./img/team.jpeg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        height: 700px;
+        width: 100%;
+        // background-position-x: -80px;
+        
+    }
+
+    // .section-1::before {
+    //     content: '';
+    //     width: 60%;
+    //     height: 22px;
+    //     background-color: $primary;
+    //     position: absolute;
+    //     align-items: center;
+    //     display: flex;
+    //     margin-left: 200px;
+    //     margin-top: 140px;
+    // }
+
+    .card {
+        position: relative;
+        background-color: white;
+        width: 40%;
+        float: right;
+        height: 435px;
+        bottom: 0;
+        top: 38%;
+    
+      }
+      
+      /* Add some padding inside the card container */
+    .container {
+        // padding: 2px 45px;
+        margin-top: 80px;
+        height: 350px;
+        width: 100%;
+      }
+
+    .card-head {
+        font-family: $font1;
+        line-height: 61px;
+        font-size: 50px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    // .card-para {
+    //     line-height: 32px;
+    //     text-align: left;
+    //     font-family: $font2;
+    //     font-size: 19px;
+    //     font-weight: 400;   
+    //     color: black; 
+    //     width: 100%;
+    //     height: auto;
+    //     margin: 20px 0px 10px 0px;
+    // }
+      
+    // .learnmore {
+    //         background-color: $primary;
+    //         color: white;
+    //         font-family: $font2;
+    //         padding: 10px 20px 20px 20px;
+    //         width: 180px;
+    //         letter-spacing: 3px;
+    //         font-weight: 400;
+    //         margin: 15px 5px 15px 0px;
+    //         line-height: 19px;
+    //         font-size: 12px;
+    //         border: none;
+    //         height: 40px;
+    // }
 } 
