@@ -262,5 +262,152 @@
 }
 // Desktop Breakpoint
 @media (max-width:1200px){
-    // CODE IN HERE
+    * {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+        box-sizing: border-box;
+    }
+
+    .section3 {
+        position: relative;
+        top: -20%;
+    }
+
+    .section3 h1 {
+        font-family: $font1;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding: 0px 200px 30px 200px;
+        height: auto;
+        width: 100%;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .hr2 {
+        display: flex;
+        position: relative;
+        left: 42%;
+        border: 2px solid darkslategrey;
+        padding: 0px;
+        margin: 0;
+        width: 120px;
+        height: 1px;
+        margin-bottom: 50px;
+
+    }
+
+
+
+    /* Slideshow container */
+    .slideshow-container {
+    // max-width: 380px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    // margin: 0;
+    align-items: center;
+    // margin: 20px 30px 20px 30px;
+    // overflow: hidden;
+
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+    display: none;
+    height: auto;
+    }
+
+    .mySlides img {
+        height: 500px;
+        padding: 0px 180px 0px 180px;
+        object-fit: cover;
+    }
+    /* Next & previous buttons */
+    .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    margin-top: -22px;
+    // padding: 16px;
+    color: rgb(53, 192, 118);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    left: 18%;
+    }
+
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: 150px;
+        margin-top: -22px;
+        // padding: 16px;
+        color: rgb(192, 53, 53);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        // left: 30%;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    .caro-title {
+        font-family: $font2;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        font-style: italic;
+        color: $primary;
+        position: relative;
+        top: -40%;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+    cursor: pointer;
+    height: 4px;
+    width: 45px;
+    margin: 0px;
+    background-color: grey;
+    border-radius: 20%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    top: 0%;
+    position: relative;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
 }

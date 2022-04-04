@@ -465,6 +465,8 @@
     background-color: #bf404c;
     width: 53%;
     height: 650px;
+    z-index: -1;
+    position: relative;
   }
   .section-2 h1 {
     color: white;
@@ -520,14 +522,20 @@
     left: 10%;
     position: relative;
   }
+  .red-back {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: auto;
+    top: -30%;
+  }
   .sec2-container img {
     height: 360px;
     width: 550px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
-    top: 63%;
+    position: relative;
     left: 47%;
     z-index: 1;
     -o-object-fit: cover;
@@ -537,29 +545,29 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
-    top: 88%;
-    left: 73%;
+    position: relative;
+    left: 71%;
     color: black;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 22px;
     font-weight: 400;
     text-align: end;
+    margin-top: 5px;
   }
   .sec2-container hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    top: 0%;
-    left: 60%;
+    left: 57.5%;
     border: 1px solid grey;
     padding: 0px;
     margin: 0;
-    width: 395px;
+    width: 420px;
     height: 1px;
+    margin-top: 10px;
   }
 }
 
@@ -791,6 +799,161 @@
     -webkit-transition: background-color 0.6s ease;
     transition: background-color 0.6s ease;
     top: -135%;
+    position: relative;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  * {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .section3 {
+    position: relative;
+    top: -20%;
+  }
+  .section3 h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 0px 200px 30px 200px;
+    height: auto;
+    width: 100%;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .hr2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 42%;
+    border: 2px solid darkslategrey;
+    padding: 0px;
+    margin: 0;
+    width: 120px;
+    height: 1px;
+    margin-bottom: 50px;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    height: auto;
+  }
+  .mySlides img {
+    height: 500px;
+    padding: 0px 180px 0px 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* Next & previous buttons */
+  .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    margin-top: -22px;
+    color: #35c076;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    left: 18%;
+  }
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    margin-top: -22px;
+    color: #c03535;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .caro-title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    font-style: italic;
+    color: #bf404c;
+    position: relative;
+    top: -40%;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 4px;
+    width: 45px;
+    margin: 0px;
+    background-color: grey;
+    border-radius: 20%;
+    display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease;
+    top: 0%;
     position: relative;
   }
   .active, .dot:hover {

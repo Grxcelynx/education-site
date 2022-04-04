@@ -210,6 +210,8 @@
         background-color: $primary;
         width: 53%;
         height: 650px;
+        z-index: -1;
+        position: relative;
     }
     
     .section-2 h1 {
@@ -266,18 +268,19 @@
         position: relative;
     }
 
-    // .sec2-container {
-    //     display: flex;
-    //     position: absolute;
-    //     z-index: 1;
-    // }
+    .red-back {
+        position: relative;
+        z-index: 1;
+        height: auto;
+        width: auto;
+        top: -30%;
+    }
 
     .sec2-container img {
         height: 360px;
         width: 550px;
         display: flex;
-        position: absolute;
-        top: 63%;
+        position: relative;
         left: 47%;
         z-index: 1;
         object-fit: cover;
@@ -285,28 +288,28 @@
     
     .sec2-container h6 {
         display: flex;
-        position: absolute;
-        top: 88%;
-        left: 73%;
+        position: relative;
+        left: 71%;
         color: black;
         font-family: $font2;
         font-style: italic;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 22px;
         font-weight: 400;
         text-align: end;
+        margin-top: 5px;
     }
 
     .sec2-container hr {
         display: flex;
         position: relative;
-        top: 0%;
-        left: 60%;
+        left: 57.5%;
         border: 1px solid grey;
         padding: 0px;
         margin: 0;
-        width: 395px;
+        width: 420px;
         height: 1px;
+        margin-top: 10px;
 
     }
 }
