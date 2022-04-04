@@ -37,7 +37,40 @@
 }
 // Tablet Breakpoint
 @media (max-width:768px){
-    // CODE IN HERE
+    * {
+        height: 100%;
+        width: 100;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        // overflow: hidden;
+    }
+
+    footer {
+        background-color: #333333;
+        height: 200px;
+        width: 100%;
+        position: relative;
+        top: 90%;
+        width: 100%;
+    }
+    .burger {
+        display: block;
+        padding: 60px 0px 20px 220px;
+      }
+
+    .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: rgb(178, 175, 175);
+        margin: 5px;
+        justify-content: right;
+      }
+
+    .icons {
+        text-align: center;
+    }
+
 }
 // Desktop Breakpoint
 @media (max-width:1200px){
