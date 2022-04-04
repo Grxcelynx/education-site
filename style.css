@@ -863,23 +863,40 @@
     font-weight: 200;
     line-height: 40px;
     font-size: 36px;
-    padding: 40px 80px 30px 60px;
+    padding: 40px 60px 30px 60px;
     text-transform: uppercase;
     height: auto;
+    position: relative;
+    top: 100%;
+  }
+  .sec5-1 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 8%;
+    border: 2px solid darkslategrey;
+    padding: 0px;
+    margin: 0;
+    width: 100px;
+    height: 1px;
+    margin-bottom: 50px;
+    top: 102%;
   }
   .sec5-1 p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 29px;
     font-size: 18px;
-    padding: 20px 70px 40px 70px;
+    padding: 20px 10px 30px 70px;
     height: auto;
     position: relative;
+    top: 100%;
   }
   .sec5-1 button {
     font-family: "Open Sans", sans-serif;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 19px;
     padding: 10px 40px 10px 40px;
     text-transform: uppercase;
@@ -890,30 +907,35 @@
     margin: 10px 0px 20px 70px;
     height: auto;
     position: relative;
+    top: 100%;
   }
   .sec5-2 {
     height: 500px;
   }
   .sec5-2 img {
-    height: 250px;
-    width: 300px;
+    height: 370px;
+    width: 550px;
     -o-object-fit: cover;
        object-fit: cover;
     margin: 10px 30px 50px 50px;
+    position: relative;
+    padding: 0;
+    top: -200%;
   }
   .sec5-2::before {
     content: '';
     background-image: url(./img/writing.jpeg);
-    background-size: 300px 250px;
+    background-size: 550px 370px;
     background-repeat: no-repeat;
-    height: 250px;
-    width: 300px;
+    height: 370px;
+    width: 550px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
-    top: 540%;
+    position: relative;
+    top: -90%;
     left: 30%;
+    z-index: 1;
   }
   .sec5-3 h6 {
     font-family: "Open Sans", sans-serif;
@@ -922,36 +944,70 @@
     font-weight: 400;
     line-height: 22px;
     text-align: right;
-    padding: 20px 40px 20px 80px;
+    padding: 20px 40px 20px 300px;
     height: auto;
+  }
+  .sec5-3 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 37%;
+    border: 1px solid darkslategrey;
+    padding: 0px;
+    margin: 0;
+    width: 450px;
+    height: 1px;
+    margin-bottom: 50px;
+    top: 1%;
   }
   .sec5-4::before {
     content: '';
     height: 20px;
-    width: 400px;
+    width: 270px;
     background-color: #bf404c;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
-    margin: 30px 10px 0px 40px;
+    position: relative;
+    margin: 0px 10px 0px 40px;
+    top: -85%;
   }
   .sec5-4 p {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     line-height: 26px;
-    font-size: 16px;
-    padding: 80px 0px 5px 40px;
+    font-size: 18px;
+    padding: 0px 0px 5px 0px;
     height: auto;
+    position: relative;
+    top: -81%;
+    left: 6%;
+  }
+  .sec5-4 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 6%;
+    border: 1px solid #bf404c;
+    padding: 0px;
+    margin: 0;
+    width: 152px;
+    height: 1px;
+    margin-bottom: 50px;
+    top: -81%;
   }
   .sec5-4 h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     line-height: 26px;
-    font-size: 16px;
-    padding: 20px 0px 5px 40px;
+    font-size: 17px;
+    padding: 20px 0px 5px 47px;
     color: #bf404c;
     height: auto;
+    position: relative;
+    top: -85%;
   }
 }
 
