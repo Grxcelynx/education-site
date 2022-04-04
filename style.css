@@ -190,30 +190,82 @@
     overflow-x: hidden;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    background-color: grey;
   }
   .section-1 {
+    background-image: url(./img/team.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    height: 200px;
+    height: 800px;
     width: 100%;
     margin: 0px;
   }
-  h1 {
-    background-color: pink;
+  .section-1::before {
+    content: '';
+    width: 40%;
+    height: 22px;
+    background-color: #bf404c;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 40%;
+    left: 51%;
+    z-index: 1;
   }
   .card {
     position: relative;
-    background-color: aqua;
+    background-color: white;
     width: 40%;
     float: right;
-    height: 435px;
+    height: 520px;
     bottom: 0;
-    top: 38%;
+    top: 35%;
   }
   /* Add some padding inside the card container */
   .container {
     margin-top: 80px;
-    height: 350px;
+    height: auto;
+  }
+  .card-head {
+    font-family: "Roboto", sans-serif;
+    line-height: 70px;
+    font-size: 60px;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 10px 30px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .card-para {
+    line-height: 32px;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 10px 0px;
+    padding: 0px 30px 10px 30px;
+  }
+  .learnmore {
+    background-color: #bf404c;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 20px 10px 20px;
+    width: 180px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 15px 0px 15px 30px;
+    line-height: 19px;
+    font-size: 13px;
+    border: none;
+    height: auto;
   }
 }
 
