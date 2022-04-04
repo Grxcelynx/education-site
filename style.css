@@ -1192,6 +1192,219 @@
   }
 }
 
+@media (max-width: 768px) {
+  * {
+    height: 100%;
+    width: 100;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .section7 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 250px 250px 250px;
+        grid-template-columns: 250px 250px 250px;
+    -ms-grid-rows: 700px;
+        grid-template-rows: 700px;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+    top: 90%;
+  }
+  .sec7-1 {
+    background-image: url(./img/main-building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+  }
+  .sec7-2 {
+    background-image: url(./img/tan-building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+  }
+  .sec7-3 {
+    background-image: url(./img/brown-building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 10px 10px 10px 10px;
+  }
+  .building-txt i {
+    color: aqua;
+    background-color: aqua;
+    height: 20px;
+    width: 20px;
+  }
+  .building-txt {
+    bottom: 0;
+  }
+  .sec7-1 .building-txt h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 15px 10px 15px;
+    color: white;
+    top: 74%;
+    position: relative;
+  }
+  .sec7-1 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 7%;
+    border: 1px solid white;
+    padding: 0px;
+    margin: 0;
+    width: 213px;
+    height: 1px;
+    top: -15%;
+  }
+  .sec7-1 .building-txt h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: -13%;
+    left: 15%;
+  }
+  .sec7-1 .sec7-hr2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 15%;
+    border: 1px dotted #bf404c;
+    padding: 0px;
+    margin: 0px 2px 0px 2px;
+    width: 70px;
+    height: 1px;
+    top: -108%;
+  }
+  .sec7-1 .building-txt h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 15px 10px 15px;
+    color: white;
+    top: 74%;
+    position: relative;
+  }
+  .sec7-2 .building-txt h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 15px 10px 15px;
+    color: white;
+    top: 60%;
+    position: relative;
+  }
+  .sec7-2 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 7%;
+    border: 1px solid white;
+    padding: 0px;
+    margin: 0;
+    width: 213px;
+    height: 1px;
+    top: -33%;
+  }
+  .sec7-2 .building-txt h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: -33%;
+    left: 15%;
+  }
+  .sec7-2 .sec7-hr2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 15%;
+    border: 1px dotted #bf404c;
+    padding: 0px;
+    margin: 0px 2px 0px 2px;
+    width: 70px;
+    height: 1px;
+    top: -128%;
+  }
+  .sec7-3 .building-txt h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 15px 10px 15px;
+    color: white;
+    top: 60%;
+    position: relative;
+  }
+  .sec7-3 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 7%;
+    border: 1px solid white;
+    padding: 0px;
+    margin: 0;
+    width: 213px;
+    height: 1px;
+    top: -33%;
+  }
+  .sec7-3 .building-txt h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: -33%;
+    left: 15%;
+  }
+  .sec7-3 .sec7-hr2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 15%;
+    border: 1px dotted #bf404c;
+    padding: 0px;
+    margin: 0px 2px 0px 2px;
+    width: 70px;
+    height: 1px;
+    top: -128%;
+  }
+}
+
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
