@@ -1496,7 +1496,7 @@
     height: 900px;
     width: auto;
     object-fit: cover;
-    width: 400px;
+    width: 367px;
     position: relative;
   }
   .sec8-2 {
@@ -1600,22 +1600,32 @@
     position: relative;
     top: 90%;
     width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .burger {
     display: block;
-    padding: 60px 0px 20px 220px;
+    padding: 60px 0px 20px 60px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .burger div {
     width: 25px;
     height: 3px;
-    background-color: #b2afaf;
+    background-color: lightgray;
     margin: 5px;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    left: 41%;
   }
   .icons {
     text-align: center;
+    top: -40%;
+    position: relative;
   }
 }
 /*# sourceMappingURL=style.css.map */

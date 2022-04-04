@@ -53,23 +53,31 @@
         position: relative;
         top: 90%;
         width: 100%;
+        align-items: center;
     }
     .burger {
         display: block;
-        padding: 60px 0px 20px 220px;
+        padding: 60px 0px 20px 60px;
+        align-items: center;
       }
 
     .burger div {
         width: 25px;
         height: 3px;
-        background-color: rgb(178, 175, 175);
+        background-color: lightgray;
         margin: 5px;
-        justify-content: right;
+        align-items: center;
+        position: relative;
+        left: 41%;
       }
 
     .icons {
         text-align: center;
+        top: -40%;
+        position: relative;
     }
+
+    
 
 }
 // Desktop Breakpoint
