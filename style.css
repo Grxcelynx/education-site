@@ -1069,6 +1069,73 @@
   }
 }
 
+@media (max-width: 768px) {
+  * {
+    height: 100%;
+    width: 100;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .section6 {
+    background-image: url(./img/hands.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    top: 90%;
+    position: relative;
+    height: 750px;
+  }
+  .section6::before {
+    content: '';
+    height: 20px;
+    width: 140px;
+    background-color: #bf404c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    margin: 30px 0px 0px 60px;
+    top: 15%;
+  }
+  .section6 h1 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    line-height: 45px;
+    font-size: 46px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 200px 80px 40px 60px;
+  }
+  .section6 p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 20px;
+    color: white;
+    padding: 30px 40px 40px 60px;
+    position: relative;
+    top: -60%;
+  }
+  .section6 button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin: 10px 0px 0px 60px;
+    height: auto;
+    top: -140%;
+    position: relative;
+  }
+}
+
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
