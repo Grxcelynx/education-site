@@ -168,8 +168,7 @@
     .section8 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 900px;
-        // grid-gap: 10px;
+        grid-template-rows: 750px;
         position: relative;
         justify-content: center;
         height: auto;
@@ -177,16 +176,15 @@
         width: 100%;
     }
     .sec8-1 {
-        height: 600px;
-        width: 1 fr;
+        height: auto;
+        width: 100%;
         top: 0%;
+        position: relative;
     }
     .sec8-1 img {
         object-fit:cover;
-        height: 900px;
-        width: auto;
-        object-fit: cover;
-        width: 367px;
+        height: 748px;
+        width: 100%;
         position:relative;
         }
 
@@ -194,16 +192,19 @@
         background-color: $primary;
         color: white;
         width: 100%;
-        
+        height: auto;
     }
 
     .sec8-2 h1 {
         font-family: $font1;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 42px;
         line-height: 43px;
         text-transform: uppercase;
-        padding: 80px 60px 50px 40px;
+        padding: 80px 60px 50px 50px;
+        margin: 20px 40px 10px 30px;
+        height: auto;
+        width: auto;
     }
 
     .sec8-2 hr {
@@ -215,35 +216,39 @@
         margin: 0;
         width: 100px;
         height: 1px;
-        top: -62%;
+        top: 0%;
     }
 
     .sec8-2 p {
         font-family: $font2;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 21px;
         line-height: 30px;
-        padding: 0px 40px 0px 60px;
+        padding: 0px 45px 0px 60px;
+        margin: 20px 40px 10px 30px;
         position: relative;
-        top: -55%;
+        top: 0%;
+        height: auto;
+        width: auto;
     }
 
 
     .sec8-2 button {
         font-family: $font2;
         font-weight: 200;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 19px;
         padding: 10px 30px 10px 30px;
+        margin: 40px 40px 10px 30px;
         text-transform: uppercase;
         letter-spacing: 2px;
         background-color: transparent;
         border: 1px solid white;
         color: white;
-        margin: 0px 0px 0px 0px;
         position: relative;
-        top: -118%;
-        left: 15%;
+        top: 0%;
+        left: 10%;
         height: auto;
+        width: auto;
     }
 }
