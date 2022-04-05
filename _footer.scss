@@ -91,6 +91,11 @@
         overflow-x: hidden;
     }
 
+    .the-footer {
+        height: auto;
+        width: 100%;
+    }
+
     footer {
         background-color: #333333;
         height: 200px;
@@ -121,6 +126,7 @@
         text-align: center;
         top: -40%;
         position: relative;
+        height: auto;
     }
-    
+
 }
