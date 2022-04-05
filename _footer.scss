@@ -82,5 +82,45 @@
 }
 // Desktop Breakpoint
 @media (max-width:1200px){
-    // CODE IN HERE
+    * {
+        height: 100%;
+        width: 100;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    footer {
+        background-color: #333333;
+        height: 200px;
+        width: 100%;
+        position: relative;
+        top: 0%;
+        width: 100%;
+        align-items: center;
+    }
+    .burger {
+        display: block;
+        padding: 60px 0px 20px 60px;
+        align-items: center;
+        height: auto;
+      }
+
+    .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: lightgray;
+        margin: 5px;
+        align-items: center;
+        position: relative;
+        left: 45%;
+      }
+
+    .icons {
+        text-align: center;
+        top: -40%;
+        position: relative;
+    }
+    
 }
