@@ -1478,6 +1478,193 @@
   }
 }
 
+@media (max-width: 1200px) {
+  * {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .section5 {
+    height: auto;
+    width: auto;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 35% 65%;
+        grid-template-columns: 35% 65%;
+    -ms-grid-rows: 630px 120px;
+        grid-template-rows: 630px 120px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: auto;
+    top: 0%;
+    overflow-x: hidden;
+  }
+  .sec5-1 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    line-height: 40px;
+    font-size: 36px;
+    padding: 0px 60px 30px 60px;
+    text-transform: uppercase;
+    height: auto;
+    position: relative;
+    top: 0%;
+  }
+  .sec5-1 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 15%;
+    border: 2px solid darkslategrey;
+    padding: 0px;
+    margin: 0;
+    width: 100px;
+    height: 1px;
+    margin-bottom: 10px;
+    top: 2%;
+  }
+  .sec5-1 p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 18px;
+    padding: 15px 120px 30px 0px;
+    height: auto;
+    position: relative;
+    top: 0%;
+    left: 15%;
+  }
+  .sec5-1 button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #bf404c;
+    border: 1px solid #bf404c;
+    color: white;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0%;
+    left: 15%;
+  }
+  .sec5-2 {
+    height: auto;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .sec5-2 img {
+    height: 350px;
+    width: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    padding: 0;
+    top: 0%;
+  }
+  .sec5-2::before {
+    content: '';
+    background-image: url(./img/writing.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 24%;
+    left: 18%;
+    z-index: 1;
+  }
+  .sec5-4::before {
+    content: '';
+    height: 20px;
+    width: 380px;
+    background-color: #bf404c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 70%;
+    right: 65%;
+  }
+  .sec5-3 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    line-height: 26px;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    position: relative;
+    top: 0%;
+    left: 13%;
+  }
+  .sec5-3 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 13%;
+    border: 1px solid #bf404c;
+    padding: 0px;
+    margin: 0;
+    width: 152px;
+    height: 1px;
+    margin-bottom: 15px;
+    top: 0%;
+  }
+  .sec5-3 h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    line-height: 26px;
+    font-size: 17px;
+    padding: 5px 0px 5px 0px;
+    color: #bf404c;
+    height: auto;
+    position: relative;
+    top: 0%;
+    left: 13%;
+  }
+  .sec5-4 h6 {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+    height: auto;
+    position: relative;
+    padding: 0px 50px 0px 350px;
+    top: 33%;
+  }
+  .sec5-4 hr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 35%;
+    border: 1px solid darkslategrey;
+    padding: 0px;
+    margin: 0;
+    width: 453px;
+    height: 1px;
+    margin-bottom: 0px;
+    top: 39%;
+  }
+}
+
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
