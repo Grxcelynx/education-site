@@ -36,97 +36,98 @@
     
 }
 // Tablet Breakpoint
-@media (min-width:481px) and (max-width:1199.87px){
-    * {
-        height: 100%;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        // overflow: hidden;
-    }
 
-    footer {
-        background-color: #333333;
-        height: 200px;
-        width: 100%;
-        position: relative;
-        top: 90%;
-        width: 100%;
-        align-items: center;
-    }
-    .burger {
-        display: block;
-        padding: 60px 0px 20px 60px;
-        align-items: center;
-      }
+// @media (min-width:481px) and (max-width:1199.87px){
+//     * {
+//         height: 100%;
+//         width: 100%;
+//         padding: 0;
+//         margin: 0;
+//         box-sizing: border-box;
+//         // overflow: hidden;
+//     }
 
-    .burger div {
-        width: 25px;
-        height: 3px;
-        background-color: lightgray;
-        margin: 5px;
-        align-items: center;
-        position: relative;
-        left: 41%;
-      }
+//     footer {
+//         background-color: #333333;
+//         height: 200px;
+//         width: 100%;
+//         position: relative;
+//         top: 90%;
+//         width: 100%;
+//         align-items: center;
+//     }
+//     .burger {
+//         display: block;
+//         padding: 60px 0px 20px 60px;
+//         align-items: center;
+//       }
 
-    .icons {
-        text-align: center;
-        top: -40%;
-        position: relative;
-    }
+//     .burger div {
+//         width: 25px;
+//         height: 3px;
+//         background-color: lightgray;
+//         margin: 5px;
+//         align-items: center;
+//         position: relative;
+//         left: 41%;
+//       }
+
+//     .icons {
+//         text-align: center;
+//         top: -40%;
+//         position: relative;
+//     }
 
     
 
-}
-// Desktop Breakpoint
-@media (min-width:1200px){
-    * {
-        height: 100%;
-        width: 100;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
+// }
+// // Desktop Breakpoint
+// @media (min-width:1200px){
+//     * {
+//         height: 100%;
+//         width: 100;
+//         padding: 0;
+//         margin: 0;
+//         box-sizing: border-box;
+//         overflow-x: hidden;
+//     }
 
-    .the-footer {
-        height: auto;
-        width: 100%;
-    }
+//     .the-footer {
+//         height: auto;
+//         width: 100%;
+//     }
 
-    footer {
-        background-color: #333333;
-        height: 200px;
-        width: 100%;
-        position: relative;
-        top: 0%;
-        width: 100%;
-        align-items: center;
-    }
-    .burger {
-        display: block;
-        padding: 60px 0px 20px 60px;
-        align-items: center;
-        height: auto;
-      }
+//     footer {
+//         background-color: #333333;
+//         height: 200px;
+//         width: 100%;
+//         position: relative;
+//         top: 0%;
+//         width: 100%;
+//         align-items: center;
+//     }
+//     .burger {
+//         display: block;
+//         padding: 60px 0px 20px 60px;
+//         align-items: center;
+//         height: auto;
+//       }
 
-    .burger div {
-        width: 25px;
-        height: 3px;
-        background-color: lightgray;
-        margin: 5px;
-        align-items: center;
-        position: relative;
-        left: 45%;
-      }
+//     .burger div {
+//         width: 25px;
+//         height: 3px;
+//         background-color: lightgray;
+//         margin: 5px;
+//         align-items: center;
+//         position: relative;
+//         left: 45%;
+//       }
 
-    .icons {
-        text-align: center;
-        top: -40%;
-        position: relative;
-        height: auto;
-    }
+//     .icons {
+//         text-align: center;
+//         top: -40%;
+//         position: relative;
+//         height: auto;
+//     }
 
-}
+// }
