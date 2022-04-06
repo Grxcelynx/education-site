@@ -96,7 +96,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100%;
@@ -104,6 +104,7 @@
     margin: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    overflow-x: hidden;
   }
   .section-1 {
     background-image: url(./img/team.jpeg);
@@ -181,7 +182,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -353,7 +354,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100;
@@ -451,7 +452,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -681,7 +682,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100;
@@ -829,7 +830,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -1052,7 +1053,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100;
@@ -1133,7 +1134,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -1316,7 +1317,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100;
@@ -1478,7 +1479,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -1723,7 +1724,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100;
@@ -1790,7 +1791,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -1918,7 +1919,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   * {
     height: 100%;
     width: 100;
@@ -2131,7 +2132,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     width: 100%;
     height: 100%;
@@ -2397,7 +2398,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1199.87px) {
   * {
     height: 100%;
     width: 100;
@@ -2489,7 +2490,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     height: 100%;
     width: 100;
@@ -2620,10 +2621,10 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1199.87px) {
   * {
     height: 100%;
-    width: 100;
+    width: 100%;
     padding: 0;
     margin: 0;
     -webkit-box-sizing: border-box;
@@ -2665,7 +2666,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   * {
     height: 100%;
     width: 100;
