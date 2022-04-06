@@ -12,77 +12,78 @@
 }
 // Mobile Break Point
 
-     .section-1 {
-        background-image: url(./img/team.jpeg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position-x: 80%;
-        position: relative;
-        // height: 40vh;
-    }
-
-    .section-1::before {
-        content: '';
-        width: 70%;
-        height: 20px;
-        background-color: $primary;
-        position: absolute;
-        align-items: center;
-        display: flex;
-        margin-left: 40px;
-        margin-top: 80px;
-    }
-
-    .card {
-        transition: 0.3s;
-        background-color: white;
-        width: 70%;
-        float: right;
-        margin-top: 40px;
-      }
-      
-      /* Add some padding inside the card container */
-    .container {
-        padding: 2px 45px;
-        margin-top: 80px;
-      }
-
-    .card-head {
-        font-family: $font1;
-        line-height: 40px;
-        font-size: 40px;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .card-para {
-        line-height: 32px;
-        font-size: 20px;
-        padding-left: 10px;
-        padding-right: 80px;
-        padding-top: 20px;
-        font-family: $font2;
-        font-size: 18px;
-        font-weight: 400;    
-    }
-    
-    .learnmore {
-        background-color: $primary;
-        color: white;
-        font-family: $font2;
-        padding: 10px;
-        width: 185px;
-        letter-spacing: 3px;
-        font-weight: 100;
-        margin-top: 15px;
-        margin-right: 15px;
-        margin-bottom: 15px;
-        margin-left: 10px;
-        line-height: 19px;
-        font-size: 12px;
-        border: none;
-    }
+.section-1 {
+    background-image: url(./img/team.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    position: relative;
+    height: 85vh;
+    width: 100vw;
+}
+.section-1::before {
+    content: ‘’;
+    width: 73%;
+    height: 3vh;
+    background-color: $primary;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    top: 15%;
+    left: 10%;
+    z-index: 1;
+}
+.card {
+    background-color: white;
+    width: 70%;
+    float: right;
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    height: auto;
+    top: 25%;
+  }
+  /* Add some padding inside the card container */
+.container {
+    margin-top: 23%;
+    padding: 0% 0% 0% 10%;
+    height:auto;
+    position: relative;
+  }
+.card-head {
+    font-family: $font1;
+    line-height: 45px;
+    font-size: 45px;
+    width: 100vw;
+    height: auto;
+    padding: 0% 60% 0% 0%;
+    margin: 0;
+}
+.card-para {
+    line-height: 32px;
+    font-size: 25px;
+    font-family: $font2;
+    font-size: 22px;
+    font-weight: 400;
+    height: auto;
+    width: auto;
+    padding: 7% 42% 0% 0%;
+    margin: 6% 0% 0% 0%;
+}
+.learnmore {
+    background-color: $primary;
+    color: white;
+    font-family: $font2;
+    padding: 3% 12% 3% 12%;
+    margin: 4% 0% 0% 0%;
+    width: auto;
+    height: auto;
+    letter-spacing: 3px;
+    font-weight: 100;
+    line-height: 19px;
+    font-size:12px;
+    border: none;
+    position: relative;
+}
 
 
 
