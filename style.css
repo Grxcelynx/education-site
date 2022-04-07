@@ -35,22 +35,24 @@
   position: relative;
   height: 85vh;
   width: 100vw;
+  overflow-x: hidden;
+  z-index: -1;
 }
 
 .section-1::before {
   content: ‘’;
-  width: 73%;
-  height: 3vh;
-  background-color: #bf404c;
-  position: absolute;
+  width: 100%;
+  height: 13vh;
+  background-color: aqua;
+  position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 15%;
-  left: 10%;
+  top: 0%;
+  left: 0%;
   z-index: 1;
 }
 
@@ -115,11 +117,15 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
 }
 
 .section-2 {
   background-color: #bf404c;
   width: 80%;
+  height: 80vh;
 }
 
 .section-2 h1 {
@@ -128,23 +134,34 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 50px;
+  padding: 10% 40% 10% 10%;
+  margin: 10% 0% 0% 0%;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  line-height: 33px;
+  font-size: 2em;
+  line-height: 1em;
   font-weight: 200;
   text-transform: uppercase;
   text-align: left;
+  height: auto;
+}
+
+.section-2 hr {
+  border: 1px solid white;
+  padding: 0px 0px 0px 20px;
+  left: 10%;
+  position: relative;
+  width: 20%;
+  height: auto;
 }
 
 .section-2 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 2em;
   color: white;
-  padding-left: 50px;
-  padding-right: 60px;
+  height: auto;
+  padding: 10% 40.5% 10% 10%;
 }
 
 .section-2 button {
@@ -153,28 +170,39 @@
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 2px;
-  padding: 10px 30px 10px 30px;
+  padding: 3% 10% 3% 10%;
   text-transform: uppercase;
   background-color: transparent;
   color: white;
   border: white solid 1px;
-  margin: 20px 20px 20px 50px;
+  margin: 0% 10% 10% 10%;
+  height: auto;
+  width: auto;
 }
 
 .red-back {
   background-color: #bf404c;
   width: 80vw;
+  height: 50vh;
+  position: relative;
 }
 
 .sec2-container {
-  width: 100%;
+  width: 150%;
+  height: auto;
 }
 
-.sec2-container img {
-  height: 300px;
-  width: 480px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.sec2-container::before {
+  content: '';
+  background-image: url(./img/bridge-walk.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 60%;
+  height: 30vh;
+  width: 50vh;
+  position: absolute;
+  z-index: 1;
 }
 
 .sec2-container h6 {
@@ -186,12 +214,14 @@
   font-weight: 400;
   text-align: end;
   padding: 30px 0px 20px 30px;
+  height: auto;
 }
 
 .sec2-container hr {
   border: 1px solid darkslategrey;
   padding: 0px 0px 0px 20px;
   width: 100%;
+  height: auto;
 }
 
 .hr1 {
@@ -199,6 +229,7 @@
       -ms-flex-align: end;
           align-items: flex-end;
   padding: 0px 0px 20px 50px;
+  height: auto;
 }
 
 * {
@@ -206,6 +237,14 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vh;
+}
+
+.section3 {
+  height: auto;
+  width: 100vw;
 }
 
 .section3 h1 {
@@ -213,7 +252,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  padding: 30px 20px 30px 20px;
+  padding: 30% 20% 30% 20%;
 }
 
 .hr2 {
